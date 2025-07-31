@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 5%;
+    background-color: #F8F5F0;
+    font-family: 'Open Sans', sans-serif;
+}   
+header{
+display: grid;
+grid-template-columns: 20% 80%;
+align-items: center;
+justify-content: center;
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;;
+}
+button{
+border: none;
+background: none;
+}
+.quote{
+    background-color: #F28E1E;
+    border-radius: 5px;
+    color: #F8F5F0;
+    padding: 10px 20px;
+}
